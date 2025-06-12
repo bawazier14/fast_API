@@ -24,8 +24,8 @@ Proyek ini membutuhkan Python 3.8+ dan server MySQL yang sedang berjalan.
 
 **1. Clone Repositori**
 ```sh
-git clone [https://github.com/nama-anda/nama-repo-ini.git](https://github.com/nama-anda/nama-repo-ini.git)
-cd nama-repo-ini
+git clone https://github.com/bawazier14/fast_API
+cd fast_API
 ```
 **ATAU DOWNLOAD FILE ZIP**
 
