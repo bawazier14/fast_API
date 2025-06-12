@@ -30,22 +30,22 @@ cd nama-repo-ini
 **ATAU DOWNLOAD FILE ZIP**
 
 **2. Buat dan Aktifkan Virtual Environment**
-# Untuk Windows
+*Untuk Windows*
 ```bash
 python -m venv venv
 .\venv\Scripts\activate
 ```
-# Untuk macOS/Linux
+*Untuk macOS/Linux*
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
-## Install Dependensi
+### **Install Dependensi**
 Pastikan virtual environment Anda aktif, lalu jalankan perintah berikut untuk menginstal semua paket yang diperlukan dari file ``requirements.txt``
 ```bash
 pip install -r requirements.txt
 ```
-## Konfigurasi Environment Variable
+### **Konfigurasi Environment Variable**
 Aplikasi ini memuat URL database dari *environment variable.* Buat file bernama ``.env`` di direktori root proyek. Salin konten berikut ke dalamnya dan sesuaikan dengan konfigurasi MySQL Anda.
 
 ```bash
@@ -53,14 +53,14 @@ Aplikasi ini memuat URL database dari *environment variable.* Buat file bernama 
 DATABASE_URL="mysql+aiomysql://root:password_anda@localhost:3306/db_buku"
 ```
 
-## Jalankan Aplikasi
+### **Jalankan Aplikasi**
 Gunakan Uvicorn untuk menjalankan server FastAPI
 ```bash
 uvicorn main:app --reload
 ```
 Server akan berjalan di http://localhost:8000. Buka http://localhost:8000/docs di browser Anda untuk mengakses dokumentasi API interaktif.
 
-# Ringkasan Endpoint API
+## **Ringkasan Endpoint API**
  | Metode | Path | Deskripsi |
 | ------ | ------ | ------- |
 | `GET` |	`/books/`	| Memanggil Semua Buku |
