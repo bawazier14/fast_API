@@ -26,10 +26,9 @@ Proyek ini membutuhkan Python 3.8+ dan server MySQL yang sedang berjalan.
 ```sh
 git clone [https://github.com/nama-anda/nama-repo-ini.git](https://github.com/nama-anda/nama-repo-ini.git)
 cd nama-repo-ini
-
-ATAU DOWNLOAD FILE ZIP
-
 ```
+**ATAU DOWNLOAD FILE ZIP**
+
 **2. Buat dan Aktifkan Virtual Environment**
 # Untuk Windows
 ```bash
